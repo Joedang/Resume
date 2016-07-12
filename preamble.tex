@@ -1,12 +1,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% Document Setup %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\documentclass[10pt]{article}
+\documentclass[12pt]{article}
 \renewcommand{\familydefault}{\sfdefault}
 % -----------------------------------------------------------------------
 \def \address{12885 NW Westlawn Terrace\\Portland, Oregon, 97229}
 \def \author{Joe Shields}
-\def \email{shields6@pdx.edu \\ joedang100@gmail.com}
+\def \email{\href{mailto:shields6@pdx.edu}{shields6@pdx.edu} \\ \href{mailto:joedang100@gmail.com}{joedang100@gmail.com}}
 \def \phnum{(971)-226-9393}
 % -----------------------------------------------------------------------
+\pdfinfo{ % appears to not work with pdflatex
+	/Author (Joe Shields)
+	/Title (Joe Shields' Resume)
+	/Keywords (mechanical;engineering;physics;composite;interdisciplinary;math)
+}
 % Layout: Puts the section titles on left side of page
 \reversemarginpar
 
