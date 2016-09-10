@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="213.46414"
-     inkscape:cy="97.446037"
+     inkscape:zoom="1"
+     inkscape:cx="277.64549"
+     inkscape:cy="102.89864"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -97,7 +97,7 @@
      id="layer1"
      transform="translate(0,-872.36218)">
     <g
-       transform="matrix(-1.4285715,0,0,1.4285715,320.89286,911.46932)"
+       transform="matrix(-1.4285715,0,0,1.4285715,309.64286,911.46932)"
        inkscape:label="ink_ext_XXXXXX"
        id="g3018">
       <g
@@ -1289,7 +1289,7 @@
        xml:space="preserve"
        id="flowRoot3732"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
-       transform="translate(-4.14625,864.05718)"><flowRegion
+       transform="translate(7.10375,864.05718)"><flowRegion
          id="flowRegion3734"><rect
            id="rect3736"
            width="191.65396"
@@ -1318,30 +1318,30 @@
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:FreeSerif;-inkscape-font-specification:FreeSerif"
-       x="10.386"
+       x="21.636"
        y="997.91217"
        id="text3789"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="10.386"
+         x="21.636"
          y="997.91217"
          id="tspan3793"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:0px;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold">971-226-9393</tspan><tspan
          sodipodi:role="line"
-         x="10.386"
+         x="21.636"
          y="1017.9122"
          id="tspan3795"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:0px;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold">Joedang.github.io</tspan><tspan
          sodipodi:role="line"
-         x="10.386"
+         x="21.636"
          y="1037.9121"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;letter-spacing:0px;font-family:FreeMono;-inkscape-font-specification:FreeMono Bold"
          id="tspan3809">Joedang100@gmail.com</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 11.25,45 292.5,0"
+       d="m 22.5,917.36218 270,0"
        id="path3805"
        inkscape:connector-curvature="0"
-       transform="translate(0,872.36218)" />
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
