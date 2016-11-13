@@ -1,0 +1,111 @@
+\documentclass[letterpaper]{article}
+
+\input{CV_preamble.tex}
+
+%additional changes
+\renewcommand{\familydefault}{ppl}	%palatino family
+\pagestyle{empty}
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule] % Text formatting of sections
+\usepackage{multirow}
+\usepackage[none]{hyphenat}
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+\definecolor{linkcolour}{rgb}{0,0,0} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\usepackage{dcolumn}	% for an alignment trick in the course table
+\newcolumntype{d}[1]{D{,}{\`}{#1}}	% should align to 
+
+\begin{document}
+\par{\centering{\Huge Joe \textsc{Shields}}\bigskip\par} % Your name
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Personal Data}
+\begin{center}
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & United States  | 1990 April 15 \\
+\textsc{Address:} & 12885 NW Westlawn, Portland, Oregon, United States \\
+\textsc{Phone:} & 971 226 9393\\
+\textsc{email:} & \href{mailto:shields6@pdx.edu}{shields6@pdx.edu}
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\begin{center}
+\begin{tabular}{p{\linewidth/4-20pt}p{\linewidth*3/4-20pt}}
+
+\multicolumn{2}{c}{\bfseries Portland State University}	\\
+\textsc{September~2013} to \textsc{June~2016}~(expected) 
+& Bachelor of Science in \textsc{Mechanical Engineering}, Maseeh College of Engineering and Computer Science	\\
+& Bachelor of Science in \textsc{Physics}	\\
+& \hyperlink{grds:psu:phys}{\textsc{Total Gpa}: 3.26/4.00}	\\
+&\\
+
+%------------------------------------------------------------
+
+\multicolumn{2}{c}{\bfseries Portland Community College}	\\
+\raggedleft 2008~to~2010, 2012~to~2013 
+& General education and prerequisites for Maseeh College of Engineering and Computer Science	Total Gpa\\
+& \hyperlink{grds:pcc}{\textsc{Total Gpa}: 3.01/4.00}	\\
+
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Computer Skills}
+\begin{center}
+\begin{tabular}{rl}
+Advanced Knowledge: & R, {\LaTeX}	\\
+
+Intermediate Knowledge: & \textsc{Matlab}, Vim, Bash, Open Office, \textsc{GIMP}, Finale, Linux, Windows	\\
+
+Basic Knowledge: & Microsoft Office, AutoCAD 2013, C++	\\
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards}
+\begin{center}
+\begin{itemize}
+\item Intel Science Expo 2006, Beaverton – Hillsboro: $3^\text{rd}$ place in Medicine \& Health
+\item PCC Art Beat student composition competition 2012: $1^\text{st}$ place
+\end{itemize}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Interests and Activities}
+\begin{center}
+%\noindent theoretical physics, music theory, continuum mechanics	\\
+%programming, biking, dragon boat racing \\
+\begin{tabular}{lll}
+theoretical physics & music theory & continuum mechanics	\\
+biking & programming & dragon boat racing
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Relevant Courses}
+\begin{center}
+\begin{tabular}{lll}
+\textsc{Course Title}	&	\textsc{Grade}	&	\textsc{Credit Hours}	\\
+\input{RelevantCourses.csv}
+\end{tabular}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+
+
+
+
