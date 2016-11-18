@@ -5,6 +5,7 @@
 %\input{CV_preamble.tex}
 
 %%%% Packages %%%%
+\usepackage[margin=1in]{geometry}
 \usepackage[english]{babel}	%All generated text BELOW THIS COMMAND will be in the specified language. i.e., you must put lipsum and blindtext below this. 
 \usepackage{titlesec} % Used to customize the \section command
 	\titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule] % Text formatting of sections
@@ -13,9 +14,12 @@
 \usepackage{color}
 	\definecolor{linkcolour}{rgb}{0,0,0} % Link color
 	\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\usepackage{bibentry}
+% \usepackage{bibentry}
 \usepackage{amsmath,amsfonts,amsthm,amssymb}			%American Mathematical Society packages 
 \usepackage{multicol}
+\usepackage[backend= bibtex, style= numeric, firstinits=true]{biblatex} % kind of necessary to get it how I want
+	\addbibresource{CV.bib}
+	\defbibheading{bibliography}[\refname]{}
 %\usepackage{dcolumn}	% for an alignment trick in the course table
 %\usepackage{multirow}
 %\usepackage[none]{hyphenat}
@@ -94,10 +98,15 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\bibliographystyle{plain}
-\nobibliography{CV.bib}
-\section*{Publications}
-\bibentry{shields2016design}
+\section{Publications}
+\nocite{shields2016design} % use this paper in the list
+% \renewcommand{\refname}{} % remove the default section label for the list
+% % remove the numeric labels for the list (black magic)
+% \makeatletter
+% \renewcommand\@biblabel[1]{\textbullet}
+% \makeatother
+% \bibliography{CV.bib} % use this database for the list
+\printbibliography
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -106,22 +115,29 @@
 \begin{itemize}
 %\item Intel Science Expo 2006, Beaverton – Hillsboro: $3^\text{rd}$ place in Medicine \& Health
 \item Director of Airframe Design and Manufacture
-	\hfill\textbf{Dec. 2015 -- Nov. 2016} %remember to add links to these things
-	\subitem \href{https://github.com/psas/sw-cad-airframe-lv3.0}{Created 
-		an open-hardware carbon fiber rocket airframe} for the 
-		\href{http://psas.pdx.edu/}{Portland State Aerospace Society}
-	\subitem Managed interdisciplinary projects among students and professionals
-	\subitem Published and presented \href{http://arc.aiaa.org/doi/pdf/10.2514/6.2016-5365}{a conference paper on the project for AIAA SPACE 2016}
+	\hfill\textbf{Dec. 2015 -- present} %remember to add links to these things
+	\par Working with the \href{http://psas.pdx.edu/}{Portland State Aerospace Society}, I designed and manufactured an \href{https://github.com/psas/sw-cad-airframe-lv3.0}{open-hardware carbon fiber airframe for the group's 3\textsuperscript{rd} generation sounding rocket}. 
+	To this end, I also managed all the airframe sub-projects being developed by our student and professional members. 
+	I presented a poster on this topic at AIAA SPACE 2016, with \href{http://arc.aiaa.org/doi/pdf/10.2514/6.2016-5365}{the corresponding paper available in the proceedings}. 
+%	\subitem \href{https://github.com/psas/sw-cad-airframe-lv3.0}{Created 
+%		an open-hardware carbon fiber rocket airframe} for the 
+%		\href{http://psas.pdx.edu/}{Portland State Aerospace Society}
+%	\subitem Managed interdisciplinary projects among students and professionals
+%	\subitem Published and presented \href{http://arc.aiaa.org/doi/pdf/10.2514/6.2016-5365}{a conference paper on the project for AIAA SPACE 2016}
 \item PCC Art Beat competition \hfill\textbf{May 2012}
-	\subitem Composed and conducted an original piece for about 30 members
-	\subitem Earned $1^\text{st}$ place in the composition competition
+	\par I composed an original piece for the PCC chamber ensemble, a group of roughly 30 musicians. 
+	I conducted the ensemble in the practices and final performance of this piece.
+	The piece also earned 1\textsuperscript{st} place in PCC's Art Beat composition competition. 
+%	\subitem Composed and conducted an original piece for about 30 members
+%	\subitem Earned $1^\text{st}$ place in the composition competition
 % \item PCC Art Beat student composition competition 2012: $1^\text{st}$ place
 \end{itemize}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\filbreak
 \section{Skills and Interests}
+\begin{minipage}{\textwidth}
 \begin{center}
 \begin{multicols}{2}
 \begin{itemize}
@@ -136,6 +152,7 @@
 \end{itemize}
 \end{multicols}
 \end{center}
+\end{minipage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
