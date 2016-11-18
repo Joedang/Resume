@@ -1,19 +1,25 @@
 \documentclass[letterpaper]{article}
-
-\input{CV_preamble.tex}
-
-%additional changes
-\renewcommand{\familydefault}{ppl}	%palatino family
 \pagestyle{empty}
+\renewcommand{\familydefault}{ppl}	%palatino family
+
+%\input{CV_preamble.tex}
+
+%%%% Packages %%%%
+\usepackage[english]{babel}	%All generated text BELOW THIS COMMAND will be in the specified language. i.e., you must put lipsum and blindtext below this. 
 \usepackage{titlesec} % Used to customize the \section command
-\titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule] % Text formatting of sections
-\usepackage{multirow}
-\usepackage[none]{hyphenat}
-\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
-\definecolor{linkcolour}{rgb}{0,0,0} % Link color
-\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
-\usepackage{dcolumn}	% for an alignment trick in the course table
-\newcolumntype{d}[1]{D{,}{\`}{#1}}	% should align to 
+	\titleformat{\section}{\Large\scshape}{}{0em}{}[\titlerule] % Text formatting of sections
+	\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+\usepackage{hyperref}
+\usepackage{color}
+	\definecolor{linkcolour}{rgb}{0,0,0} % Link color
+	\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\usepackage{bibentry}
+\usepackage{amsmath,amsfonts,amsthm,amssymb}			%American Mathematical Society packages 
+\usepackage{multicol}
+%\usepackage{dcolumn}	% for an alignment trick in the course table
+%\usepackage{multirow}
+%\usepackage[none]{hyphenat}
+%\newcolumntype{d}[1]{D{,}{\`}{#1}}	% should align to 
 
 \begin{document}
 \par{\centering{\Huge Joe \textsc{Shields}}\bigskip\par} % Your name
@@ -73,7 +79,7 @@
 \section{Computer Skills}
 \begin{center}
 \begin{itemize}
-\item R, MATLAB, C++, Bash, Vim, SolidWorks, Abaqus, AutoCAD, GIMP, Inkscape, Finale
+\item R, MATLAB, C++, Bash, Vim, Git, SolidWorks, Abaqus, AutoCAD, GIMP, Inkscape, Finale
 \item \LaTeX, Microsoft Office, Libre Office, Google Docs, etc.
 \item Ubuntu, Windows
 \end{itemize}
@@ -85,6 +91,13 @@
 % Basic Knowledge: & Microsoft Office, AutoCAD 2013, C++	\\
 % \end{tabular}
 \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{plain}
+\nobibliography{CV.bib}
+\section*{Publications}
+\bibentry{shields2016design}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
