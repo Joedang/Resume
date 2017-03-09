@@ -1,0 +1,45 @@
+Joe Shields
+
+12885 NW Westlawn Terrace
+Portland, Oregon 97229
+
+(971)-226-9393
+shields6@pdx.edu
+joedang100@gmail.com
+Joedang.github.io
+
+Education:
+----------------------------------------
+  Portland State University:	Sep. 2013 – Jun. 2016
+    B.S. Mechanical Engineering, Maseeh College of Engineering and Computer Science
+    B.S. Physics, College of Liberal Arts and Sciences
+    3.65 GPA
+  Portland Community College:	Sep. 2008 – Jun. 2010, Sep. 2011 – Sep. 2013
+    3.0 GPA
+
+Languages and Technologies:
+----------------------------------------
+* R, MATLAB, C++, Bash, Vim, Git, SolidWorks, Abaqus, AutoCAD, GIMP, Inkscape, Finale
+* LaTeX, Microsoft Office, Libre Office, Google Docs, etc.
+* Ubuntu, Windows
+
+Projects and Awards:
+----------------------------------------
+  Director of Airframe Design and Manufacture	Dec. 2015 – present
+    Created an open-hardware carbon fiber rocket airframe for the Portland State Aerospace Society
+    Managed interdisciplinary projects among students and professionals
+    Published and presented a conference paper on the project for AIAA SPACE 2016
+    Extensively documented design an manufacturing processes and fostered institutional knowledge
+  PCC Art Beat competition	May 2012
+    Composed and conducted an original piece for about 30 members
+    Earned 1 st place in the composition competition
+
+Relevant Projects:
+----------------------------------------
+I’ve written a few orbital simulations to help myself learn new languages, investigate physics, and demonstrate concepts from my coursework. In addition to the projects below, you can check out the rest of my portfolio at github.com/Joedang/Portfolio.
+* Restricted 3-body simulation	github.com/Joedang/restricted_three_body_problem
+An R script for investigating the motion of satellites within planet-moon systems.
+* Ballistic trajectory simulation	github.com/Joedang/Portfolio/tree/master/projectile
+Realistic scenarios of short-range ballistic motion of various projectiles on different planets, accounting for buoyancy, drag, centrifugal, and Coriolis effects.
+* N-body simulation	github.com/Joedang/Portfolio/tree/master/MATLAB_orbits
+Various scenarios involving an arbitrary number of charged massive particles.
