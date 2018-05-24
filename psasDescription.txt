@@ -1,0 +1,3 @@
+I'm working on the structure for the cubesat which will become Oregon's first satellite (see oresat.org). This currently involves working on large SolidWorks assemblies, specifying off-the-shelf parts, and specifying tolerances. These design decisions are informed by specifications from NASA, our launch provider, and the electrical and mechanical teams within our group.
+
+Previously, I manufactured the new all-composite airframe for the group's sounding rocket. That mostly involved designing and testing many manufacturing processes, documenting those processes, teaching them to other students, and working with outside businesses for parts we couldn't manufacture. (My resume and website both link to the conference paper I wrote on these processes.)
