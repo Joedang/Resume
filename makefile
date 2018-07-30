@@ -1,3 +1,5 @@
+SRC=CV
+
 all:
 	make pdf
 	make check
@@ -7,21 +9,26 @@ pdf:
 	# 
 	# BUILDING THE PDF
 	# 
-	pdflatex resume.tex
+	pdflatex $(SRC)
 
 check:
 	#
 	# THINGS TO LOOK AT:
 	# (leading dashes are to ignore errors in make)
 	#
-	-grep -i Error resume.log
-	-grep -i Warning resume.log
-	-grep -i badness resume.log
-	-grep -i overfull resume.log
-	-grep -i underfull resume.log
+	-grep -i Error $(SRC).log
+	-grep -i Warning $(SRC).log
+	-grep -i badness $(SRC).log
+	-grep -i overfull $(SRC).log
+	-grep -i underfull $(SRC).log
 
 view:
 	# 
 	# OPENING THE PDF
 	# 
-	evince resume.pdf &
+	evince $(SRC).pdf &
+
+clean:
+	-gvfs-trash $(SRC).log 
+	-gvfs-trash $(SRC).aux 
+	-gvfs-trash $(SRC).out 
