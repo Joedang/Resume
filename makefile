@@ -1,4 +1,4 @@
-SRC=CV
+SRC=resume
 
 all:
 	make pdf
