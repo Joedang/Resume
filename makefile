@@ -1,11 +1,21 @@
 SRC=resume
+DEPS=preamble.tex
 
 all:
 	make pdf
 	make check
 	make view
 
+# pdf: $(SRC).tex
+# 	# 
+# 	# BUILDING THE PDF
+# 	# 
+# 	pdflatex $(SRC)
+
 pdf:
+	make $(SRC).pdf
+
+$(SRC).pdf: $(SRC).tex $(DEPS)
 	# 
 	# BUILDING THE PDF
 	# 
