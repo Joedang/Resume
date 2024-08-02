@@ -2,13 +2,15 @@
 Mechanical engineer with 8 years of design and manufacturing experience  
 Located in Portland, Oregon  
 Looking for:  
+
 - fully remote work
 - hybrid work in Cascadia (no more than 40% of working hours in-office)
 
 Please email before calling: [joedang100@gmail.com](mailto:joedang100@gmail.com), 971-226-9393  
 Read more at [Joedang.github.io](https://joedang.github.io).
 
---------------------------
+----------
+
 ## Professional Experience
 ### Design Engineer, Oct. 2021 -- July 2023
 [Earth and Space Institute](https://esi.umbc.edu/) and [AirPhoton](https://www.airphoton.com/)
@@ -22,6 +24,7 @@ AP address: 1442 S Rolling Rd, Lansdowne, MD 21227
 AP supervisor: John Hall
 ESI supervisor: Dr. Vanderlei Martins
 -->
+
 - Rescued a 20-million-dollar project by applying physical scaling laws
 - Halved the size of three separate systems through clever architecture changes
 - Performed space-claim, keep-out-zone, and tolerance analyses 
@@ -34,6 +37,7 @@ ESI supervisor: Dr. Vanderlei Martins
 
 ### Mechanical Lead, Sep. 2019 -- Oct. 2021  
 [Portland State Aerospace Society (PSAS)](https://www.pdxaerospace.org/)
+
 - Mentored student projects and assembled project teams
 - Maintained equipment and lab space
 - Performed FMEA and root-cause analysis
@@ -41,6 +45,7 @@ ESI supervisor: Dr. Vanderlei Martins
 
 ### Lab Manager, Sep. 2019 -- Oct. 2021  
 [PSU Electronics Prototyping Lab](https://psu-epl.github.io/)
+
 - Maintained equipment and lab space
 - Trained students on prototyping equipment
 - Ran the lab's parts store
@@ -56,6 +61,7 @@ Department: Dragon 2, Mechanisms, Manufacturing Engineering
 Full time, 50+ hours per week
 Supervisor: Nico Robert, nico.robert@spacex.com, 424-200-0492
 --->
+
 - Supported a wide variety of mechanisms on the [human-rated Dragon 2 docking systems](https://en.wikipedia.org/wiki/Dragon_2)
 - Wrote detailed and intuitive assembly instructions to meet strict quality standards
 - Owned aggressive build schedules and held others accountable to them
@@ -71,12 +77,14 @@ Address: 12172 SW Garden Pl, Portland, OR 97223
 Half time, 20+ hours per week
 Supervisor: Dr. Robert (Bob) Cargill, bcargill@pacificdt.com, 503-679-6349
 --->
+
 - Prototyped wearable micro-fluidic devices and electronic enclosures
 - Created designs, models, and drawings for patent applications
 - Designed miniaturized assemblies for 3D printing and injection molding
 
 ### Mechanical Lead, Dec. 2015 -- Mar. 2019
 [Portland State Aerospace Society (PSAS)](https://www.pdxaerospace.org/)
+
 - [Created an open-hardware carbon fiber rocket airframe](https://github.com/psas/sw-cad-airframe-lv3.0) for the [Portland State Aerospace Society](http://psas.pdx.edu/)
 - Published and presented [a conference paper on the project for AIAA SPACE 2016](http://arc.aiaa.org/doi/pdf/10.2514/6.2016-5365)
 - Documented design and manufacturing processes to foster institutional knowledge
@@ -84,6 +92,7 @@ Supervisor: Dr. Robert (Bob) Cargill, bcargill@pacificdt.com, 503-679-6349
 
 ### Design Engineer, Jan. 2017 -- Mar. 2019
 [OreSat](https://www.oresat.org/)
+
 - Coordinated the design of all mechanical subsystems in [Oregon's first satellite](http://oresat.org/)
 - Maintained the [top-level SolidWorks assembly](https://github.com/oresat/oresat-structure) of the satellite
 - Incorporated constraints from NASA, NanoRacks, and OreSat electrical subsystems
@@ -98,9 +107,11 @@ PCC Art Beat competition, May 2012
 
 ### Lab Manager, Jan. 2018 -- Mar. 2019
 [Electronics Prototyping Lab](https://psu-epl.github.io/)
+
 - Same duties listed above
 
------------------
+----------
+
 ## Physical Tools
 3D printers (FDM, SLA, SLS, MJP), laser cutters, mills, lathes, hand tools  
 PCB routers, soldering (hand, re-flow), oscilloscopes, various microscopes  
@@ -112,7 +123,8 @@ R, MATLAB, C++, Python, Bash, Vim, Git, Jekyll, HTML, CSS, JavaScript
 LaTeX, Microsoft Office, Libre Office, Google Docs, et cetera  
 Linux, Windows, Abaqus, GIMP, Inkscape  
 
-------------
+----------
+
 ## Education
 ### Portland State University, Sep. 2013 -- Jun. 2016
 <!---
@@ -158,7 +170,8 @@ physics test:
    percentile: 63
 --->
 
------------------
+----------
+
 ## Small Projects
 In addition to the projects below, you can check out the rest of my portfolio at 
 [github.com/Joedang](https://github.com/Joedang).
